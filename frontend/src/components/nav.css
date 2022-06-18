@@ -1,0 +1,27 @@
+nav {
+background-color: rgb(155, 9, 94);
+font-size: 25px;
+border-top: black solid;
+
+}
+
+nav a {
+color: rgb(255, 255, 255) !important;
+
+}
+
+nav a:hover  {
+color: rgb(201, 201, 201) !important;
+}
+
+a.dropdown-item {
+color: rgb(0, 0, 0) !important;
+background-color: rgb(243, 243, 243) !important;
+
+}
+
+a.dropdown-item:hover {
+    color: rgb(155, 9, 94) !important;
+    background-color: rgb(243, 243, 243) !important;
+    
+    }
