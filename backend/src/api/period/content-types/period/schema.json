@@ -1,0 +1,47 @@
+{
+  "kind": "collectionType",
+  "collectionName": "periods",
+  "info": {
+    "singularName": "period",
+    "pluralName": "periods",
+    "displayName": "Period",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "information": {
+      "type": "richtext"
+    },
+    "carousel": {
+      "type": "component",
+      "repeatable": false,
+      "component": "graphic.carousel"
+    },
+    "picture": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "name": {
+      "type": "string"
+    },
+    "flora": {
+      "type": "richtext"
+    },
+    "climate": {
+      "type": "text"
+    },
+    "doba": {
+      "type": "string"
+    }
+  }
+}

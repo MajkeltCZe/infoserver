@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_graphic_banners",
+  "info": {
+    "displayName": "Banner",
+    "icon": "asterisk"
+  },
+  "options": {},
+  "attributes": {
+    "photo": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "info": {
+      "type": "string"
+    },
+    "link": {
+      "type": "string"
+    }
+  }
+}
