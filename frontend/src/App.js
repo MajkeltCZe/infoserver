@@ -8,6 +8,7 @@ import Records from './pages/Records';
 import Period from './pages/Period';
 import { Header } from './components/Header';
 import { Footer } from './components/Footer';
+import { Navigation } from './components/Navigation';
 
 
 
@@ -21,7 +22,7 @@ function App() {
     <BrowserRouter>
       <ApolloProvider client={client}>
         <Header />
-   
+   <Navigation />
         <main className='container'>
           <Routes>
             <Route path="/" element={<Homepage />} />

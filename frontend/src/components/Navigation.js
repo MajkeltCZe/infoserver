@@ -12,13 +12,13 @@ export const Navigation = () => {
     return (
         <Navbar collapseOnSelect expand="lg">
             <Container>
-                <Navbar.Brand href="/" active>Druhohory</Navbar.Brand>
+                <Navbar.Brand href="/">Druhohory</Navbar.Brand>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">
                     <Nav className="me-auto">
                     <NavDropdown title="Období" id="collasible-nav-dropdown">
                     { data.periods.data.map(period => (
-                        <NavDropdown.Item key={period.id} href={`/periods/${period.id}`}>{period.attributes.name}</NavDropdown.Item>
+                        <NavDropdown.Item key={period.id} href={`/period/${period.id}`}>{period.attributes.name}</NavDropdown.Item>
                     ))}
                 </NavDropdown>
                         <Nav.Link href="/Records"
