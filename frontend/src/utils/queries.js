@@ -8,7 +8,7 @@ export const HOMEPAGE = gql`
     data {
       attributes {
        about
-        picture{
+       picture{
           data {
             attributes {
               url

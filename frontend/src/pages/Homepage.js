@@ -20,6 +20,7 @@ export default function Homepage() {
                     alt="mainPicture"
                     />
 
+
     </Container>
   );
 }
