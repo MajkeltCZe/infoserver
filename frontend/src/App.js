@@ -6,6 +6,7 @@ import { ApolloClient, InMemoryCache, ApolloProvider } from "@apollo/client";
    import Homepage from './pages/Homepage';
    import { Header } from './components/Header';
 import { Footer } from './components/Footer';
+import Records from './pages/Records';
 
 
    const client = new ApolloClient({
@@ -22,6 +23,7 @@ import { Footer } from './components/Footer';
              <Routes>
   
                <Route path="/" element={<Homepage />} />
+               <Route path="/records" element={<Records />} />
              </Routes>
            </main>
            <Footer />
