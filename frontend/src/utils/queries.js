@@ -138,3 +138,18 @@ data {
    }
         
        `;
+
+
+       export const FOOTER = gql`
+{
+  footer {
+    data {
+      id
+      attributes {
+        authors
+      }
+      }
+    }
+  }
+
+`;
