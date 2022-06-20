@@ -147,6 +147,13 @@ data {
       id
       attributes {
         authors
+        img{
+          data {
+            attributes {
+              url
+            }
+          }
+        }
       }
       }
     }

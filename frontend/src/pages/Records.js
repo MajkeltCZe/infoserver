@@ -12,16 +12,13 @@ export default function Records() {
   return (
     <Container fluid>
       {dinos.map((dinosaur) => (
-
         <Dinos
-          name = {dinosaur.attributes.name}
-          title = {dinosaur.attributes.title}
+          name={dinosaur.attributes.name}
+          title={dinosaur.attributes.title}
           key={dinosaur.id}
-          information =  {dinosaur.attributes.information}
-          photo =    {dinosaur.attributes.photo.data.attributes.url}
-/>
-      
-
+          information={dinosaur.attributes.information}
+          photo={dinosaur.attributes.photo.data.attributes.url}
+        />
       ))}
 
     </Container>

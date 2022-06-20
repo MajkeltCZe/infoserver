@@ -1,5 +1,24 @@
  .img {
-height: 750px;
+     height: 650px;
 
+ }
 
-}
+ p {
+     font-size: larger;
+
+ }
+
+ .plant {
+     width: 450px;
+     height: 550px;
+ }
+
+ .text-dark {
+     color: black !important;
+
+ }
+
+ .carousel-control-next,
+ .carousel-control-prev {
+     filter: invert(100%);
+ }
